@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/Background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    #main-section{
+        width: 1000px;
+        height: 1500px;
+        background-color: #ff9999;
+        margin: 100px 0 0 240px;
+        position: relative;
+    }
+
+    h1{
+        width: 900px;
+        height: 150px;
+        background-color: #cc6699;
+        margin: 50px 0 0px 50px;
+        position: absolute;
+    }
+    img{
+        margin: 30px 0 0 80px;
+    }
+
+    #textsection{
+        width: 800px;
+        height: 1260px;
+        background-color: #ffffb3;
+        margin: 220px 0 0 100px;
+        position: absolute;
+    }
+    #countdown{
+        width: 100px;
+        height: 100px;
+        background-color: #4d004d;
+        margin: 0px 0 0 350px;
+        position: absolute;
+    }
+
+    #qsection{
+        width: 800px;
+        height: 1000px;
+        background-color: #ff6666;
+        margin: 120px 0 0 0px;
+        
+    }
+    
