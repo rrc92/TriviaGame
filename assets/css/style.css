@@ -32,11 +32,14 @@ body {
         position: absolute;
     }
     #countdown{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         background-color: #4d004d;
         margin: 0px 0 0 350px;
         position: absolute;
+        font-family: 'Butcherman', cursive;
+        font-size: 100px;
+        color: #65ff00;
     }
 
     #qsection{
