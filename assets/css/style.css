@@ -1,13 +1,12 @@
 body {
     background-image: url(../images/Background.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     }
 
     #main-section{
         width: 1000px;
-        height: 1500px;
+        height: 2000px;
         background-color: #ff9999;
         margin: 100px 0 0 240px;
         position: relative;
@@ -26,20 +25,21 @@ body {
 
     #textsection{
         width: 800px;
-        height: 1260px;
+        height: 1750px;
         background-color: #ffffb3;
         margin: 220px 0 0 100px;
         position: absolute;
     }
     #countdown{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         background-color: #4d004d;
         margin: 0px 0 0 350px;
         position: absolute;
         font-family: 'Butcherman', cursive;
-        font-size: 100px;
+        font-size: 60px;
         color: #65ff00;
+        text-align: center;
     }
 
     #qsection{
