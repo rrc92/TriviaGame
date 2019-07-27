@@ -16,7 +16,7 @@
 
     }
 
-debugger;
+
     $("input[type='submit']").on('click', function(){
         var ans = $("input[name='cap']:checked").val();
 
