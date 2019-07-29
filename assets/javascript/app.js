@@ -10,7 +10,7 @@ $(document).on("click", function () {
 
 
 });
-var counter = 5;
+var counter = 100;
 var ansv = ["3", "6", "11", "15", "20", "22", "26", "29", "33", "38"];
 var cor = [];
 var wro = [];
