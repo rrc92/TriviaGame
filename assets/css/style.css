@@ -6,7 +6,7 @@ body {
 
     #main-section{
         width: 1000px;
-        height: 2350px;
+        height: 2540px;
         background-color: #ff9999;
         margin: 100px 0 0 240px;
         position: relative;
@@ -28,7 +28,7 @@ body {
 
     #textsection{
         width: 800px;
-        height: 2080px;
+        height: 2260px;
         background-color: #ffffb3;
         margin: 220px 0 0 100px;
         position: absolute;
@@ -49,7 +49,7 @@ body {
 
     #qsection{
         width: 500px;
-        height: 1886px;
+        height: 2060px;
         background-color: #ff6666;
         margin: 140px 0 0 150px;
         text-align: center;
@@ -59,4 +59,25 @@ body {
         color: #65ff00;
     }
     
-    
+    #content{
+        font-size: 25px;
+        
+    }
+
+    #start{
+
+         display: none;
+
+
+    }
+    #btn{
+    margin: 350px 0 0 380px;
+    width: 250px;
+    height: 250px;
+    border-radius: 205px;
+    position: absolute;
+    font-family: 'Butcherman', cursive;
+    font-size: 60px;
+    color: #65ff00;
+    background-color: #FF6700;
+    }
