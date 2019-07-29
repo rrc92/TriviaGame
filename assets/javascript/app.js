@@ -1,5 +1,5 @@
     
-    var counter = 10;
+    var counter = 100;
     $('#counter').text(counter);
 
     var timer = setInterval(goDown, 1*1000);
@@ -22,8 +22,8 @@
     $("input[type='submit']").on('click', function(){
         var ans = $("input[name='cap']:checked").val();
 
-        if (ans == 'sacramento'){
-            $('#content').text(answers[0]);
+        if (ans == answers[0],[1],[2],[3],[4],[5],[6],[7],[8],[9]){
+            $('#content').text('correct');
         }else{
             $('#content').text('incorrect')
         }
