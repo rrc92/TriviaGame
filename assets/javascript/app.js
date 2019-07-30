@@ -10,13 +10,15 @@ $(document).on("click", function () {
 
 
 });
-var counter = 100;
+
+// Global variables
+var counter = 101;
 var ansv = ["3", "6", "11", "15", "20", "22", "26", "29", "33", "38"];
 var cor = [];
 var wro = [];
 
 
-
+// Correct answer condition
 
 $("input").on("click", function () {
 
@@ -39,24 +41,27 @@ $("input").on("click", function () {
     }
 });
 
-
+// countdown timer
 var timer = setInterval(goDown, 1 * 1000);
 $('#counter').text(counter);
 
 
+// Submit button function and commands for results
 $("#submit").on('click', function () {
     clearInterval(timer);
     $("#submit").attr('disabled', true);
     $('#content').text('timer is up!');
-    var q = $("<p>").text(cor.length);
-    var t = $("<p>").text(wro.length);
-    var aa = $("<p>").text(answers);
-    $("#content").append(q, t, aa);
+    var q = $("#corrects").text("Correct: " + cor.length);
+    var t = $("#wrongs").text("Wrong: "+ wro.length);
+    var aa = $("#rights").text("Right Answers: " + answers);
+    // $("#content").append(q, t, aa);
 });
 
+// Right answers array
 
 var answers = ['Fred', 'Chester', 'Sheen', 'Princess-Yue', 'Chuckie', 'Reggie-Rocket', 'The-Squirrel', 'Nine', 'In-the-Attic', 'Gordon'];
 
+// countdown timer instructions
 
 function goDown() {
     counter--;
@@ -70,7 +75,7 @@ function goDown() {
         var q = $("#corrects").text(cor.length);
         var t = $("#wrongs").text(wro.length);
         var aa = $("#rights").text(answers);
-        $("#content").append(q, t, aa);
+        // $("#content").append(q, t, aa);
 
     }
 
